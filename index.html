@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Taxa de financiamento</title>
+</head>
+<body>
+    <h1>Calculadora de Juros de Financiamento</h1>
+
+    <label for="valor">Valor do Financiamento (R$):</label>
+    <input type="number" id="valor" placeholder="Ex: 10000">
+    <br>
+
+    <label for="taxa">Taxa de Juros Mensal (%) </label>
+    <input type="number" id="taxa" placeholder="Ex: 2">
+    <br>
+
+    <label for="meses">Número de Meses:</label>
+    <input type="number" id="meses" placeholder="Ex: 12">
+    <br>
+
+    <button onclick="calcular()">Calcular Juros</button>
+
+    <h2>Resultado</h2>
+    <p id="resultado"></p>
+</body>
+<script src="/script.js"></script>
+</html>
